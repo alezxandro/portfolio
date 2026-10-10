@@ -223,7 +223,7 @@ function renderBio(content, labels, locale) {
     renderFacts(content, labels, locale),
   ].join("");
   return `${renderPhoto(content.photo)}
-    <h1>${escapeHtml(content.name)}</h1>
+    <h1><span>${escapeHtml(content.name)}</span> <span class="badge-rings" aria-hidden="true" title="Calisthenics enthusiast"></span></h1>
     <p class="headline">${escapeHtml(content.headline)}</p>${firstScreen}
     ${renderEach(content.bio, (paragraph) => `<p>${escapeHtml(paragraph)}</p>`)}`;
 }

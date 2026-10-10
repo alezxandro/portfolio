@@ -1,79 +1,146 @@
 {
   "$schema": "./content.schema.json",
   "language": "en",
-  "name": "Ada Example",
-  "headline": "Frontend developer who likes fast, accessible web pages",
-  "photo": {
-    "src": "assets/avatar.svg",
-    "alt": "Ada Example's avatar: a simple drawing of a head and shoulders in two shades of grey"
-  },
-  "pitch": "I build small, fast websites that everyone can use, and I explain every choice in plain words.",
-  "highlights": [
-    { "text": "Every page I look after scores 100 for accessibility in Lighthouse" },
-    { "text": "Five years of teaching maths: I make technical choices easy to follow" },
-    { "text": "Two open-source projects on GitHub", "url": "https://github.com/octocat" }
-  ],
+  "name": "Alessandro Gheojan",
+  "headline": "Computer Engineering Graduate & Telecommunications Engineering Student",
+  "pitch": "I engineer reliable full-stack applications and cybersecurity solutions driven by discipline, continuous learning, and teamwork.",
   "availability": {
-    "text": "Open to junior frontend roles from January 2027.",
+    "text": "Open to connecting with tech communities and engineering opportunities.",
     "actionLabel": "Write to me",
-    "actionUrl": "mailto:ada@example.com"
+    "actionUrl": "mailto:gheojan.alessandro@outlook.com"
   },
-  "location": { "city": "Milan", "country": "Italy", "timeZone": "Europe/Rome" },
+  "location": {
+    "city": "Rome",
+    "country": "Italy",
+    "timeZone": "Europe/Rome"
+  },
   "languages": [
-    { "name": "English", "level": "native" },
-    { "name": "Italian", "level": "B2" }
+    { "name": "Italian", "level": "native" },
+    { "name": "Romanian", "level": "native" },
+    { "name": "English", "level": "C1" }
   ],
   "bio": [
-    "I build small, fast websites and the tools around them. Before I wrote code, I taught maths, so I still enjoy explaining things simply.",
-    "This is a sample portfolio of a fictional person. Replace it with your own story."
-  ],
-  "projects": [
-    {
-      "title": "Tide Tables",
-      "description": "A tiny web app that shows today's tides for a chosen harbour, built with plain HTML, CSS and JavaScript.",
-      "github": "https://github.com/octocat/Hello-World"
-    },
-    {
-      "title": "Reading Log",
-      "description": "A static site that lists the books I read, generated from one JSON file.",
-      "github": "https://github.com/octocat/Spoon-Knife",
-      "url": "https://octocat.github.io/Spoon-Knife/"
-    }
+    "I am a Computer Engineering graduate from Politecnico di Milano & ELIS, currently pursuing my studies in Telecommunications Engineering. Throughout my academic journey, I combined rigorous engineering coursework with hands-on, project-based engineering, delivering real-world software and cybersecurity solutions commissioned by consortium companies and startups.",
+    "Building on internship experiences across cyber risk governance, mobile development, and full-stack systems, I have developed strong end-to-end development and problem-solving skills, taking technical projects from concept to execution.",
+    "Beyond engineering, I am deeply passionate about calisthenics, applying the same discipline, consistency, and drive for growth to my physical fitness as I do to software craft."
   ],
   "links": [
-    { "label": "GitHub", "url": "https://github.com/octocat" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ada-example" },
-    { "label": "Email", "url": "mailto:ada@example.com" }
+    { "label": "GitHub", "url": "https://github.com/alezxandro" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/alessandro-gheojan-4a3641273/" },
+    { "label": "Email", "url": "mailto:gheojan.alessandro@outlook.com" }
   ],
   "cv": {
     "experience": [
       {
-        "role": "Junior Frontend Developer",
-        "organization": "Example Studio",
-        "start": "2024",
-        "end": "present",
-        "summary": "Build and maintain marketing sites; brought every page to a Lighthouse accessibility score of 100."
+        "role": "Cyber Security Governance Analyst (Intern)",
+        "organization": "Gruppo Ferrovie dello Stato Italiane",
+        "start": "2026-03",
+        "end": "2026-07",
+        "summary": "Co-designed the SupplyGuard Intelligence Platform PoC for supply chain cyber risk management (NIS2 framework), building a 3-axis risk scoring engine and executive dashboards."
       },
       {
-        "role": "Maths Teacher",
-        "organization": "Example Secondary School",
-        "start": "2019",
-        "end": "2024",
-        "summary": "Taught maths to students aged 11 to 16 and ran the after-school coding club."
+        "role": "Software Developer (Mobile, Android) (Intern)",
+        "organization": "Aviation Services S.p.A.",
+        "start": "2025-03",
+        "end": "2025-07",
+        "summary": "Developed a native Android application ported from a legacy Windows Mobile solution for handheld devices to support daily airport business operations."
+      },
+      {
+        "role": "Software Developer - Tool Staffing Project (Intern)",
+        "organization": "ELIS Innovation Hub",
+        "start": "2024-05",
+        "end": "2024-07",
+        "summary": "Contributed front-end and back-end features using Spring Boot to improve staffing management tool functionality and usability."
+      },
+      {
+        "role": "Software Developer (Intern)",
+        "organization": "Matematici srl",
+        "start": "2023-02",
+        "end": "2023-08",
+        "summary": "Developed web applications with JavaScript, jQuery, HTML/CSS, and ASP.NET MVC."
+      },
+      {
+        "role": "Digital Engineering Student",
+        "organization": "ELIS",
+        "start": "2023-09",
+        "end": "2026-07",
+        "summary": "Combined Politecnico di Milano computer engineering curriculum with practical industry projects commissioned by consortium companies."
       }
     ],
     "education": [
       {
-        "title": "Web Development Bootcamp",
-        "organization": "Example Academy",
-        "year": "2023"
+        "title": "Telecommunications Engineering (MSc / Laurea Magistrale)",
+        "organization": "University",
+        "year": "present"
       },
       {
-        "title": "BSc Mathematics",
-        "organization": "Example University",
-        "year": "2018"
+        "title": "BSc Computer Engineering (Laurea Triennale)",
+        "organization": "Politecnico di Milano",
+        "year": "2023 – 2026"
+      },
+      {
+        "title": "High School Diploma in Computer Science & Telecommunications (100/100 cum laude)",
+        "organization": "ITIS G. Vallauri",
+        "year": "2018 – 2023"
       }
     ],
-    "skills": ["HTML", "CSS", "JavaScript", "Accessibility", "Git"]
-  }
+    "skills": [
+      "Python",
+      "Java",
+      "Spring Boot",
+      "Angular",
+      "TypeScript",
+      "Android",
+      "C++",
+      "SQL",
+      "Linux",
+      "AWS",
+      "Cybersecurity Governance (NIS2)"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner (CLF-C02)",
+      "issuer": "Amazon Web Services (AWS)",
+      "kind": "exam",
+      "issued": "2026-02",
+      "expires": "2029-02"
+    },
+    {
+      "name": "Hackersgen Linux Base",
+      "issuer": "SORINT.lab",
+      "kind": "course",
+      "issued": "2022-05"
+    },
+    {
+      "name": "Hackersgen Front End Developer Base",
+      "issuer": "SORINT.lab",
+      "kind": "course",
+      "issued": "2022-05"
+    },
+    {
+      "name": "IT Essentials Hardware and Software",
+      "issuer": "Cisco",
+      "kind": "course",
+      "issued": "2021-06"
+    }
+  ],
+  "builtAt": {
+    "event": "DevFest Milano 2026",
+    "date": "2026-10-10"
+  },
+  "events": [
+    {
+      "name": "DevFest Milano 2026",
+      "date": "2026-10-10",
+      "city": "Milan",
+      "role": "attendee",
+      "sessions": [
+        {
+          "type": "workshop",
+          "title": "AI-Native Web Development, Hands-On"
+        }
+      ]
+    }
+  ]
 }
